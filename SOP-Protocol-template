@@ -1,0 +1,35 @@
+<SOP_PROTOCOL>
+  <context>
+    [ระบุข้อมูล, สถานการณ์, และที่มาของงาน]
+  </context>
+  
+  <objective>
+    [ระบุเป้าหมายที่ต้องการให้สำเร็จ แบบชี้วัดได้]
+  </objective>
+</SOP_PROTOCOL>
+
+<CO_STA_RG_FRAMEWORK>
+  <style>
+    [ระบุสไตล์การเขียน เช่น Academic, Professional, Creative]
+  </style>
+  
+  <tone>
+    [ระบุระดับโทน เช่น Analytical, Empathetic, Direct]
+  </tone>
+  
+  <audience>
+    [ระบุว่าใครคือผู้อ่านเป้าหมาย]
+  </audience>
+  
+  <response_structure>
+    [ระบุรูปแบบผลลัพธ์ เช่น Markdown Table, JSON, List]
+  </response_structure>
+</CO_STA_RG_FRAMEWORK>
+
+<QA_VERIFICATION_LOOP>
+  <rules>
+    1. Grammar & Logic: ขัดเกลาไวยากรณ์และตรรกะประโยคให้สละสลวย
+    2. Grounding: ตรวจสอบความถูกต้องของข้อมูล (Fact-check) เทียบกับแหล่งข้อมูลจริง
+    3. Noise Reduction: ตัดคำอารัมภบทไร้สาระ (No Fluff) เน้นสาระสำคัญ (High Signal)
+  </rules>
+</QA_VERIFICATION_LOOP>
